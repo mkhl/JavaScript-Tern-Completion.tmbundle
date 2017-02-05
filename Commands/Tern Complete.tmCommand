@@ -15,7 +15,7 @@ require 'json/pure'
 require 'shellwords'
 require 'open3'
 
-TERN_CMD = 'tern'
+TERN_CMD = ENV['TM_TERN'] || 'tern'
 
 def showErrorAndExit(error)
   TextMate::UI.alert(:critical, "Error", error)
@@ -136,6 +136,20 @@ TextMate::UI.complete(choices);
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>atCaret</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>term</string>
+			<key>locations</key>
+			<array>
+				<string>/usr/local/bin/tern</string>
+				<string>/opt/local/bin/tern</string>
+			</array>
+			<key>variable</key>
+			<string>TM_TERN</string>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.js.es6, source.js</string>
 	<key>uuid</key>
