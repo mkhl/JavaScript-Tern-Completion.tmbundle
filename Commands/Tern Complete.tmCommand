@@ -15,9 +15,7 @@ require 'json/pure'
 require 'shellwords'
 require 'open3'
 
-ENV['PATH'] = "/usr/local/bin:" + ENV['PATH']
-TERN_DIR = File.join(ENV['TM_BUNDLE_SUPPORT'], 'tern/')
-TERN_CMD = Shellwords.shellescape(File.join(TERN_DIR, 'bin', 'tern'))
+TERN_CMD = 'tern'
 
 def showErrorAndExit(error)
   TextMate::UI.alert(:critical, "Error", error)
