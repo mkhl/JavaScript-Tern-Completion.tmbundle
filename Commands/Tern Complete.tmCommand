@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby18 -wKU
 
-$LOAD_PATH.unshift(ENV['TM_BUNDLE_SUPPORT'] + '/json-1.8.3/lib/')
+$LOAD_PATH.unshift(ENV['TM_BUNDLE_SUPPORT'] + '/json/lib/')
 
 require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
 require 'net/http'

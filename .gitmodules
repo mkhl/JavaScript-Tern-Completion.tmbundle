@@ -1,0 +1,3 @@
+[submodule "Support/json"]
+	path = Support/json
+	url = git://github.com/flori/json.git
