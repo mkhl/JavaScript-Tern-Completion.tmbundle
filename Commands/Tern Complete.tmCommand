@@ -16,7 +16,7 @@ Tern { |tern| tern.complete }
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~ </string>
+	<string>~</string>
 	<key>name</key>
 	<string>Tern Complete</string>
 	<key>outputCaret</key>
