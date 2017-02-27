@@ -18,7 +18,7 @@ Tern { |tern| tern.complete }
 	<key>keyEquivalent</key>
 	<string>~</string>
 	<key>name</key>
-	<string>Tern Complete</string>
+	<string>Complete</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
@@ -29,7 +29,7 @@ Tern { |tern| tern.complete }
 	<array>
 		<dict>
 			<key>command</key>
-			<string>term</string>
+			<string>tern</string>
 			<key>locations</key>
 			<array>
 				<string>/usr/local/bin/tern</string>
@@ -40,7 +40,7 @@ Tern { |tern| tern.complete }
 		</dict>
 	</array>
 	<key>scope</key>
-	<string>source.js.es6, source.js</string>
+	<string>source.js</string>
 	<key>uuid</key>
 	<string>B947D6C8-B223-4474-9AFC-95C1D563EB7F</string>
 	<key>version</key>
